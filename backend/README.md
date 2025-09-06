@@ -33,3 +33,24 @@ refresh: true,
 vue(),
 ],
 });
+
+## app.js
+
+import './bootstrap';
+import { createApp } from 'vue';
+import app from './components/App.vue';
+
+createApp(app).mount("#app");
+
+## resources->js->components->App.vue
+
+<template lang="">
+
+        <h1>Hello World</h1>
+
+</template>
+
+## Run the server
+
+-   php artisan serve
+-   npm run dev
