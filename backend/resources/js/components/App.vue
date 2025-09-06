@@ -1,5 +1,13 @@
 <template lang="">
-
-        <h1>Hello World</h1>
-  
+        <div>
+                <RouterView/>
+        </div>
 </template>
+<script>
+export default {
+        
+}
+</script>
+<style lang="">
+        
+</style>

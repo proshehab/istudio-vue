@@ -1,6 +1,6 @@
 import { createRouter,createWebHashHistory } from "vue-router";
 import homeIndex from '../components/pages/home/Index.vue';
-import AdminHomeIndex from '../components/pages/admin/home/Index.vue';
+import AdminHomeIndex from '../components/admin/home/Index.vue';
 
 const routes = [
     
@@ -10,8 +10,8 @@ const routes = [
         component:homeIndex,
     },
     {
-        path:'/admin',
-        name:'admin',
+        path:'/admin/dashboard',
+        name:'admin.home.index',
         component:AdminHomeIndex
     }
 ]
